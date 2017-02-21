@@ -10,14 +10,25 @@
 </head>
 <body class="home">
 	<?php include("inc/nav.inc.php");?>
-	<div class="col-12">
-		<img src="" class="max" alt="heres an image">
-	</div>
-	<div class="col-4">
-		<img src="" class="max" alt="heres another image">
-	</div>
-	<div class="col-8">
-		<img src="" class="max" alt="and yet another one">
+	<div class="page">
+		<div class="col-12">
+			<img src="img/whois.png" class="max" alt="heres an image">
+		</div>
+		<div class="col-4">
+			<img src="img/map.png" class="max" alt="heres another image">
+		</div>
+		<div class="col-8">
+			<img src="img/conference.png" class="max" alt="and yet another one">
+		</div>
+		<div class="col-4">
+			<img src="img/star.png" class="icons" alt="heres another image">
+		</div>
+		<div class="col-4">
+			<img src="img/info.png" class="icons" alt="heres another image">
+		</div>
+		<div class="col-4">
+			<img src="img/like.png" class="icons" alt="heres another image">
+		</div>
 	</div>		
 </body>
 </html>	

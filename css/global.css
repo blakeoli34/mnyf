@@ -1,8 +1,94 @@
+/* document spacing and loading */
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+html {
+	font-family:"Futura", Helvetica, Arial, sans-serif;
+	overflow-x:hidden;
+	color:#fff;
+}
+body {
+	padding:0;
+	margin:0 auto;
+	margin-top:3em;
+	width:100%;
+	overflow:hidden;
+	background:#333;
+}
+.page {
+	width:100%;
+	max-width:700px;
+	display:block;
+	margin:0 auto;
+}
+img.max {
+	width:100%;
+	margin:0 auto;
+}
+/* navigation */
+.navbar {
+	position:fixed; top:0; left:0; right:0;
+	width:100%;
+	background:#CE3337;
+	padding:10px 50px 10px 50px;
+	min-height:4em;
+}
+.nav_container {
+	display:block;
+	width:100%;
+	max-width:900px;
+	margin:0 auto;
+	text-align:center;
+}
+ul.nav {
+	width:100%;
+	-webkit-margin-before: .5em;
+	-webkit-margin-after: .5em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	-webkit-padding-start: 0px;
+}
+ul.nav li {
+	list-style-type:none;
+	display:inline-block;
+	margin-right:2em;
+}
+ul.nav li:last-child {
+	margin-right:0;
+}
+li a {
+	text-decoration:none;
+	color:rgba(255,255,255,1);
+	transition:all 0.3s;
+	font-size:0.75em;
+}
+li a:hover {
+	color:rgba(255,255,255,0.4);
+	transition:all 0.3s;
+}
+ul li.home {
+	width:16em;
+	margin:0 auto;
+	margin-left:-8em;
+}
+ul li a img {
+	width:8em;
+	margin-top:-1em;
+	margin-bottom:-1em;
+}
+img.icons {
+	width:3em;
+	display:block;
+	margin:0 auto;
+}
+
 /* grid goes here */
 
 [class*="col-"] {
     float: left;
-    padding: 10px;
+    padding: 0px;
 }
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
@@ -39,33 +125,3 @@
 	.col-11 {width: 100%;}
 	.col-12 {width: 100%;}
 }	
-
-/* document spacing and loading */
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-}
-html {
-	font-family:"Futura", Helvetica, Arial, sans-serif;
-	overflow-x:hidden;
-	color:#fff;
-}
-body {
-	padding:0;
-	margin:0 auto;
-	margin-top:50px;
-	width:100%;
-	overflow:hidden;
-	background:#333;
-}
-img.max {
-	max-width:100%;
-	margin:0 auto;
-}
-/* navigation */
-.navbar {
-	position:fixed; top:0; left:0; right:0;
-	width:100%;
-	background:#CE3337;
-}
