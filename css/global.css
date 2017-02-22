@@ -12,10 +12,15 @@ html {
 body {
 	padding:0;
 	margin:0 auto;
-	margin-top:3em;
+	margin-top:3.9em;
+	margin-bottom:3em;
 	width:100%;
 	overflow:hidden;
 	background:#333;
+}
+p {
+	font-size:.8em;
+	font-weight:300;
 }
 .page {
 	width:100%;
@@ -23,9 +28,98 @@ body {
 	display:block;
 	margin:0 auto;
 }
+footer {
+	position:fixed;
+	bottom:0;
+	width:100%;
+	background:#ccc;
+	padding:.5em;
+}
+.gray {
+	background:#666;
+}
+.black {
+	background:black;
+}
+.navmobile {
+	display:none;
+}
+.footercontent {
+	width:100%;
+	max-width:700px;
+	display:block;
+	margin:0 auto;
+}
+.footercontent p {
+	width:50%;
+	font-size:0.5em;
+	color:#333;
+	display:inline-block;
+	font-weight:400;
+}
+.footercontent a {
+	float:right;
+	text-decoration:none;
+	color:white;
+	background:#CE3337;
+	font-size:.9em;
+	padding:.5em;
+	padding-bottom:.3em;
+	margin-top:0.1em;
+	transition:all 0.3s;
+}
+.footercontent a:hover {
+	background:#555;
+	transition:all 0.3s;
+}
+.textbox {
+	width:100%;
+	padding:1em;
+}
+.textbox h1 {
+	text-transform:uppercase;
+	font-size:1.5em;
+	font-weight:500;
+	-webkit-margin-before:0;
+}
+.textbox h5 {
+	-webkit-margin-before:0;
+	-webkit-margin-after:0em;
+	font-size:0.65em;
+}
+.light {
+	font-weight:300;
+}
 img.max {
 	width:100%;
 	margin:0 auto;
+	display:block;
+}
+img.constrained {
+	max-width:120px;
+	margin:0 auto;
+}
+.imgtext {
+	position:relative;
+	width:100%;
+}
+.imgtext h2.center {
+	text-transform:uppercase;
+	position:absolute;
+	top:25%;
+	left:0;
+	width:100%;
+	text-align:center;
+	font-size:1.6em;
+	font-weight:500;
+}
+p.caption {
+	color:#ccc;
+	font-size:0.7em;
+	text-align:center;
+	line-height:1.5em;
+	font-weight:400;
+	margin-bottom:2em;
 }
 /* navigation */
 .navbar {
@@ -34,6 +128,7 @@ img.max {
 	background:#CE3337;
 	padding:10px 50px 10px 50px;
 	min-height:4em;
+	z-index:100;
 }
 .nav_container {
 	display:block;
@@ -75,20 +170,21 @@ ul li.home {
 }
 ul li a img {
 	width:8em;
-	margin-top:-1em;
+	margin-top:-.75em;
 	margin-bottom:-1em;
 }
 img.icons {
 	width:3em;
 	display:block;
 	margin:0 auto;
+	margin-top:2em;
 }
 
 /* grid goes here */
 
 [class*="col-"] {
     float: left;
-    padding: 0px;
+    padding: 0px 5px 5px 5px;
 }
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
@@ -102,8 +198,55 @@ img.icons {
 .col-10 {width: 83.33%;}
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
-
-@media screen and (max-width:769px) {
+.clear {
+	clear:both;
+}
+.mobileonly {
+	display:none;
+}
+@media screen and (max-width:640px) {
+	ul li.home {
+		display:block;
+		margin:0 auto;
+		margin-bottom:1em;
+	}
+	body {
+		margin-top:6em;
+	}
+}
+@media screen and (max-width:500px) {
+	body {
+		margin-top:3.5em;
+		margin-bottom:;
+	}
+	.mobileonly {
+		display:block;
+	}
+	.donatebutton {
+		z-index:105;
+		color:#CE3337;
+		background:white;
+		text-decoration:none;
+		font-size:1.25em;
+		margin-top:18em;
+		padding:.5em;
+		padding-bottom:.3em;
+	}
+	.navmobile {
+		display:block;
+		position:fixed;
+		z-index:90;
+		top:0;
+		left:0;
+		width:100%;
+		background:rgba(255,255,255,0.9);
+	}
+	.navmobile a img {
+		width:20%;
+		display:block;
+		margin:0 auto;
+		padding:.5em 0 .5em 0;
+	}
 	.col-1 {
 		width:33.33%;
 	}
@@ -124,4 +267,75 @@ img.icons {
 	.col-10 {width: 100%;}
 	.col-11 {width: 100%;}
 	.col-12 {width: 100%;}
+	.col-third-s {
+		width:33.333%;
+	}
+	.navbar {
+		position:fixed; top:0; left:auto; right:-60%;
+		width:60%;
+		height:100vh;
+		padding:1em;
+		transition:all 0.4s;
+	}
+	.navbar.show {
+		right:0%;
+		transition:all 0.4s;
+	}
+	ul li.home {
+		display:none !important;
+	}
+	ul.nav li {
+		display:block;
+		margin-right:0;
+		margin-bottom:1em;
+	}
+	ul.nav li a {
+		font-size:1.25em;
+	}
+	.underlay {
+		position:fixed;
+		top:0;
+		right:-100%;
+		background:black;
+		width:100vw;
+		height:100vh;
+		opacity:0;
+		transition:opacity 0.4s;
+		z-index:95;
+	}
+	.underlay.show {
+		right:0;
+		opacity:0.5;
+		transition:opacity 0.4s;
+	}
+	.hamburger_menu {
+		position:fixed;
+		top:15px;
+		right:1em;
+		transition:top 0.4s;
+		width:30px;
+		opacity:1;
+		transition:all 0.3s;
+		cursor:pointer;
+	}
+	footer {
+		padding:0em;
+	}
+	.footercontent {
+		text-align:center;
+	}
+	.footercontent p {
+		width:100%;
+		text-align:center;
+		-webkit-margin-before:0;
+		-webkit-margin-after:0;
+	}
+	.footercontent a {
+		display:none;
+	}
 }	
+@media screen and (max-width:340px) {
+	.donatebutton {
+		margin-top:12em;
+	}
+}
