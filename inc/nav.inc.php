@@ -16,7 +16,7 @@
 							</li>		-->
 							<li class="home"><a href="index.php"><img src="img/logo.png" alt="mnyf"></a></li>
 							<li class="events"><a href="events.php">News &amp; Events</a></li>	
-							<li class="fund"><a href="spfund.php">Stephen Pollock Fund</a></li>
+							<li class="spfund"><a href="spfund.php">Stephen Pollock Fund</a></li>
 							<li class="about"><a href="about.php">About Us</a></li>
 							<li class="contact"><a href="contact.php">Contact Us</a></li>
 						</ul>

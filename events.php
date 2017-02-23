@@ -9,31 +9,39 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 </head>
 <body class="events">
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
 	<?php include("inc/nav.inc.php");?>
 	<div class="page">
 		<div class="col-12">
-			<img src="img/whois.png" class="max" alt="heres an image">
+			<h1>News</h1>
+			<p>See everything thats happening here and on our Facebook page!</p>
+		</div>	
+		<div class="col-12">
+			<h1>Events</h1>
+			<p>Check out our calendar below and save events to your own Google calendar.</p>
 		</div>
-		<div class="col-4 imgtext">
-			<img src="img/map.png" class="max" alt="heres another image">
-			<h2 class="center">Check out<br>our members</h2>
+		<div class="col-12">
+			<iframe src="https://calendar.google.com/calendar/embed?title=mnyf%20events&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;height=500&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=9f3rhmk2633klsvrb0vmgso2c8%40group.calendar.google.com&amp;color=%23AB8B00&amp;ctz=America%2FNew_York" style="border:solid 1px #CE3337; margin-right:10px;" frameborder="0"  scrolling="no"></iframe>
+		</div>	
+		<div class="col-6 nomobile">
+			<div class="fb-page" data-href="https://www.facebook.com/mnyfmichigan/" data-tabs="timeline" data-width="500" data-height="300" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/mnyfmichigan/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/mnyfmichigan/">Michigan Network for Youth &amp; Families</a></blockquote></div>
 		</div>
-		<div class="col-8 imgtext">
-			<img src="img/conference.png" class="max" alt="and yet another one">
-			<h2 class="center">MMYF Annual<br>Conference</h2>
+		<div class="col-6 nombile">
+			<h1>Stay Updated!</h1>
+			<p>Like our page on Facebook to stay up to date on anything and everything that is MNYF!</p>
 		</div>
-		<div class="col-4">
-			<img src="img/star.png" class="icons" alt="heres another image">
-			<p class="caption">Stephen Pollock<br>Memorial Fund</p>
-		</div>
-		<div class="col-4">
-			<img src="img/info.png" class="icons" alt="heres another image">
-			<p class="caption">Think you<br>know MNYF?</p>
-		</div>
-		<div class="col-4">
-			<img src="img/like.png" class="icons" alt="heres another image">
-			<p class="caption">Donate to<br>Our Cause</p>
-		</div>
+		<div class="clear"></div>
+		<div class="col-12">
+			<h1>Publications</h1>
+			<p>Read all of our materials here!</p>
+		</div>	
 	</div>
 	<?php include("inc/footer.php");?>		
 </body>

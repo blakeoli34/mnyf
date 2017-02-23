@@ -16,11 +16,11 @@
 		</div>
 		<div class="col-4 imgtext">
 			<img src="img/map.png" class="max" alt="heres another image">
-			<h2 class="center">Check out<br>our members</h2>
+			<h2 class="center topdrop">Check out<br>our members</h2>
 		</div>
 		<div class="col-8 imgtext">
 			<img src="img/conference.png" class="max" alt="and yet another one">
-			<h2 class="center">MMYF Annual<br>Conference</h2>
+			<h2 class="center">MNYF Annual<br>Conference</h2>
 		</div>
 		<div class="col-6">
 			<div class="textbox gray">
@@ -40,7 +40,7 @@
 				</div>
 				<div class="clear"></div>	
 			</div>	
-		</div>
+		</div>	
 		<div class="col-4 col-third-s">
 			<img src="img/star.png" class="icons" alt="heres another image">
 			<p class="caption">Stephen Pollock<br>Memorial Fund</p>
