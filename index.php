@@ -11,36 +11,45 @@
 <body class="home">
 	<?php include("inc/nav.inc.php");?>
 	<div class="page">
-		<div class="col-12">
-			<img src="img/whois.png" class="max" alt="heres an image">
+		<div class="col-12 imgtext">
+			<a href="about.php">
+				<img src="img/whois.png" class="max" alt="heres an image">
+			</a>	
 		</div>
 		<div class="col-4 imgtext">
-			<img src="img/map.png" class="max" alt="heres another image">
-			<h2 class="center topdrop">Check out<br>our members</h2>
+			<a href="members.php">
+				<img src="img/map.png" class="max" alt="heres another image">
+				<h2 class="center topdrop">Check out<br>our members</h2>
+			</a>	
 		</div>
 		<div class="col-8 imgtext">
-			<img src="img/conference.png" class="max" alt="and yet another one">
-			<h2 class="center">MNYF Annual<br>Conference</h2>
+			<a href="events.php#conf">
+				<img src="img/conference.png" class="max" alt="and yet another one">
+				<h2 class="center">MNYF Annual<br>Conference</h2>
+			</a>	
 		</div>
 		<div class="col-6">
-			<div class="textbox gray">
+			<div class="textbox gray nolink">
 				<h1>Safe<span class="light"> Place</span></h1>
 				<p>The Michigan Network for Youth and Families (MNYF) is a non-profit 501(c)3 membership organization. Our mission is to strengthen Michigan's youth-in-need, their families, and our communities by providing quality support, information, training and advocacy to member organizations.</p>
 			</div>	
 		</div>
 		<div class="col-6">
 			<div class="textbox black">
-				<h1>Follow<span class="light"> Us</span></h1>
-				<div class="col-4">
-					<img src="img/facebook.png" class="max constrained" alt="mnyf_facebook">
-				</div>
-				<div class="col-8">
-					<h5>@MNYFMichigan</h5>
-					<p>Follow our Facebook page for updates on events, application deadlines, publications, and other information about our organization!</p>
-				</div>
-				<div class="clear"></div>	
+				<a href="https://facebook.com/mnyfmichigan" target="_blank">
+					<h1>Follow<span class="light"> Us</span></h1>
+					<div class="col-4">
+						<img src="img/facebook.png" class="max constrained" alt="mnyf_facebook">
+					</div>
+					<div class="col-8">
+						<h5>@MNYFMichigan</h5>
+						<p>Follow our Facebook page for updates on events, application deadlines, publications, and other information about our organization!</p>
+					</div>
+					<div class="clear"></div>	
+				</a>	
 			</div>	
-		</div>	
+		</div>
+		<div class="clear"></div>	
 		<div class="col-4 col-third-s">
 			<img src="img/star.png" class="icons" alt="heres another image">
 			<p class="caption">Stephen Pollock<br>Memorial Fund</p>

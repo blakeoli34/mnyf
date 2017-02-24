@@ -23,7 +23,7 @@
 				<p>Members of MNYF pay dues based on their operating budget for relevant programming. Affiliate memberships are also available to supporting organizations, individuals, and youth. Additional financial support comes from foundation, state, and federal contracts for training and technical assistance to providers in Michigan.</p>
 				<p>If you would like more information regarding our membership structure and purpose, <a href="#">please check our by-laws.</a></p>
 		</div>	
-		<div class="col-7 imgtext">
+		<div class="col-7 imgtext nohover">
 			<img src="img/board.jpg" class="max" alt="and yet another one">
 			<h3 class="center">Currently MNYF is without paid staff and is fully operational by the volunteer efforts of its<br>Board of Directors</h3>
 			<h3>Board of Directors</h3>
@@ -68,6 +68,9 @@
 					</ul>
 					<h3>Becoming a Member of MNYF</h3>
 					<p>Are you interested in becoming part of our network committed to improving the lives of Michigan youth? <a href="#">Please see membership for more information.</a></p>
+					<div class="textbox black nolink">
+						<h1>Our<span class="light"> Members</span></h1>
+					</div>
 		</div>
 	</div>
 	<?php include("inc/footer.php");?>		

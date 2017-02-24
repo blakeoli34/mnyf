@@ -29,12 +29,20 @@
 		</div>
 		<div class="col-12">
 			<iframe src="https://calendar.google.com/calendar/embed?title=mnyf%20events&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;height=500&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=9f3rhmk2633klsvrb0vmgso2c8%40group.calendar.google.com&amp;color=%23AB8B00&amp;ctz=America%2FNew_York" style="border:solid 1px #CE3337; margin-right:10px;" frameborder="0"  scrolling="no"></iframe>
-		</div>	
+		</div>
+		<div id="conf" class="col-5">
+			<h3>MNYF Annual Conference</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Yas yas yas yas yas. Oh yas this looks good. Yas.</p>
+		</div>
+		<div class="col-7">
+			<img class="max" src="img/conference.png" alt="" />
+		</div>
+		<div class="clear"></div>		
 		<div class="col-6 nomobile">
 			<div class="fb-page" data-href="https://www.facebook.com/mnyfmichigan/" data-tabs="timeline" data-width="500" data-height="300" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/mnyfmichigan/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/mnyfmichigan/">Michigan Network for Youth &amp; Families</a></blockquote></div>
 		</div>
 		<div class="col-6 nombile">
-			<h1>Stay Updated!</h1>
+			<h3>Stay Updated!</h3>
 			<p>Like our page on Facebook to stay up to date on anything and everything that is MNYF!</p>
 		</div>
 		<div class="clear"></div>

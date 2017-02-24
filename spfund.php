@@ -25,7 +25,7 @@
 			</div>	
 		</div>
 		<div class="clear"></div>
-		<div class="col-6">
+		<div class="col-6 padright">
 			<h2>About Stephen Pollock</h2>
 			<p>Stephen Pollock is remembered as a dedicated, committed and passionate man. His life is recognized by his strong connection to family and his tremendous loyalty to his mother. Mr. Pollock’s professional contributions included his service to the Department of Human Services (formerly known as the Department of Social Services and the Family Independence Agency) with service from 1967 through 1992. Mr. Pollock continued his service as the Executive Director of the Michigan Coalition Against Homelessness from 1992 through 1994. During this time, Mr. Pollock was a strong influence in support of the Michigan Network for Youth and Families on a part-time basis and was hired as the full-time Executive Director for MNYF in 1995. Mr. Pollock’s leadership of MNYF was a significant factor in expanding membership, training and technical assistance support to runaway and homeless providers throughout the State of Michigan. Pollock also developed a strong relationship with legislators, helping to secure a voice for homeless, runaway, and at-risk youth and their families throughout Michigan.</p>
 
@@ -36,13 +36,13 @@
 		<div class="col-6">
 			<h2>Who is Eligible?</h2>
 			<p>The Stephen Pollock Memorial Scholarship is available to those youth who meet certain requirements. Youth applying must:
-				<ul>
+				<ul class="eligible">
 					<li>Be between the ages of 10 and 23</li>
 					<li>Be sponsored by an MNYF agency or member</li>
 					<li>Use the scholarship for educational or leadership development opportunity</li>
 					<li>Submit a written request at least one month prior to the opportunity</li>
 					<li>Provide MNYF with requested information about the opportunity</li>
-					<li>Provide written guardian permission if under age 18 years of age</li>
+					<li>Provide written guardian permission if under 18 years of age</li>
 					<li>Allow for their likeness to be used in promotional activities (guardian approval required for youth under age 18)</li>
 				</ul>
 			</p>
@@ -52,7 +52,7 @@
 			<p>The MNYF does not discriminate on the	basis of age, race, color, religion, national origin, gender or gender identity, sexual orientation, height, weight, marital status, veteran's status, disability, or any other	reason prohibited by applicable laws.</p>
 		</div>
 		<div class="clear"></div>
-		<div class="col-6">
+		<div class="col-6 padright">
 			<h2>Dome Day</h2>
 			<p>In accordance with the fund's mission to engage youth in civic leadership, several youth have been awarded scholarships to attend the annual Dome Day, which is an annual event hosted by the Michigan Network for Youth and Families. Michigan youth visit the state capitol and schedule meetings with elected officials to discuss programming and their personal experiences. Over 22 youth-focused agencies and hundreds of teens meet with State Representatives on March 15th.</p>
 

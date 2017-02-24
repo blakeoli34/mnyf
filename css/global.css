@@ -44,6 +44,14 @@ a {
 	color:#ce3337;
 	transition:all 0.4s;
 }
+p a,
+ul.board li a {
+	color:#ce3337 !important;
+}
+p a:hover,
+ul.board li a:hover {
+	color:#555 !important;
+}
 a:hover {
 	color:#555;
 	transition:all 0.4s;
@@ -71,6 +79,14 @@ footer {
 	background:white;
 	color:#333 !important;
 }
+ul.eligible {
+	-webkit-padding-start:1em;
+}
+ul.eligible li {
+	font-size:.8em;
+	font-weight:300;
+	padding-bottom:.5em;
+}
 ul.board {
 	list-style-type:none;
 	-webkit-padding-start:0;
@@ -91,6 +107,19 @@ ul.board li {
 }
 .navmobile {
 	display:none;
+}
+.morepadding {
+	padding:0 2em !important;
+}
+.memberpage a {
+	display:block;
+	text-align:center;
+	font-size:.7em;
+	margin-bottom:1em;
+}
+.memberpage > div > a > img {
+	border:1px solid #ce3337;
+	margin-bottom:.5em;
 }
 .footercontent {
 	width:100%;
@@ -137,6 +166,21 @@ a.invertedbutton:hover {
 .textbox {
 	width:100%;
 	padding:1em;
+	border:2px solid #333;
+	transition:all 0.3s;
+}
+.textbox a {
+	color:#fff;
+}
+.textbox:hover {
+	border:2px solid #666;
+	transition:all 0.3s;
+}
+.nolink {
+	cursor:default;
+}
+.nolink:hover {
+	border:2px solid #333;
 }
 .textbox h1 {
 	text-transform:uppercase;
@@ -147,7 +191,7 @@ a.invertedbutton:hover {
 .textbox h5 {
 	-webkit-margin-before:0;
 	-webkit-margin-after:0em;
-	font-size:0.78em;
+	font-size:.95em;
 }
 .light {
 	font-weight:300;
@@ -164,6 +208,24 @@ img.constrained {
 .imgtext {
 	position:relative;
 	width:100%;
+	transition:all 0.5s;
+}
+.imgtext a {
+	color:#fff;
+}
+.imgtext img{
+	border:2px solid #333;
+	transition:all 0.3s;
+}
+.imgtext:hover img {
+	border:2px solid #666;
+	transition:all 0.3s;
+}
+.imgtext.nohover h3.center {
+	cursor:default;
+}
+.imgtext.nohover:hover img {
+	border:2px solid #333;
 }
 .imgtext h2.center {
 	text-transform:uppercase;
@@ -231,7 +293,7 @@ ul.nav li a {
 	transition:all 0.3s;
 	font-size:0.75em;
 }
-li a:hover {
+ul.nav li a:hover {
 	color:rgba(255,255,255,0.4);
 	transition:all 0.3s;
 }
@@ -309,7 +371,7 @@ form button:after {
 
 [class*="col-"] {
     float: left;
-    padding: 0px 5px 10px 5px;
+    padding: 0px 3px 6px 3px;
 }
 .colnopad {
 	padding:0;
@@ -333,7 +395,7 @@ form button:after {
 	display:none;
 }
 .padright {
-	padding-right:15px;
+	padding-right:25px;
 }
 @media screen and (max-width:640px) {
 	ul li.home {
@@ -346,6 +408,9 @@ form button:after {
 	}
 }
 @media screen and (max-width:500px) {
+	.clearmobile {
+		clear:both;
+	}
 	h2.topdrop {
 		top:6em !important;
 	}
