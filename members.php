@@ -76,7 +76,27 @@
 			</div>
 			<div class="col-2">
 				<a href="http://www.starfishfamilyservices.org"><img class="max" src="http://placehold.it/300x300" alt="Starfish Family Services">Starfish Family Services</a>
-			</div>		
+			</div>
+			<div class="clear"></div>
+			<div class="col-2">
+				<a href="http://www.co.mecosta.mi.us/youth.asp"><img class="max" src="http://placehold.it/300x300" alt="Youth Attention Center">Youth Attention Center</a>
+			</div>
+			<div class="clear"></div>
+			<h3>Affiliate Members</h3>
+			<div class="col-2">
+				<a href="#"><img class="max" src="http://placehold.it/300x300" alt="#">Member Name</a>
+			</div>
+			<div class="col-2">
+				<a href="#"><img class="max" src="http://placehold.it/300x300" alt="#">Member Name</a>
+			</div>
+			<div class="clear"></div>
+			<h3>Individual Members</h3>
+			<ul class="board">
+				<li>Member Name</li>
+				<li>Member Name</li>
+				<li>Member Name</li>
+				<li>Member Name</li>
+			</ul>	
 		</div>
 	</div>
 	<?php include("inc/footer.php");?>		

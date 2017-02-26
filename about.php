@@ -68,7 +68,7 @@
 					</ul>
 					<h3>Becoming a Member of MNYF</h3>
 					<p>Are you interested in becoming part of our network committed to improving the lives of Michigan youth? <a href="#">Please see membership for more information.</a></p>
-					<div class="textbox black nolink">
+					<div class="textbox white nolink">
 						<h1>Our<span class="light"> Members</span></h1>
 					</div>
 		</div>
