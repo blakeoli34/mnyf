@@ -38,6 +38,7 @@ p {
 	font-size:.8em;
 	font-weight:300;
 	line-height:1.5em;
+	letter-spacing:.05em;
 }
 a {
 	text-decoration:none;
@@ -116,10 +117,19 @@ ul.board li {
 	text-align:center;
 	font-size:.7em;
 	margin-bottom:1em;
+	color:#555;
+}
+.memberpage a:hover {
+	color:#ce3337;
+}
+.memberpage a:hover img {
+	border:1px solid #ce3337;
+	transition:all 0.4s;
 }
 .memberpage > div > a > img {
-	border:1px solid #ce3337;
+	border:1px solid #555;
 	margin-bottom:.5em;
+	transition:all 0.4s;
 }
 .footercontent {
 	width:100%;
@@ -178,6 +188,7 @@ a.invertedbutton:hover {
 }
 .nolink {
 	cursor:default;
+	border:2px solid #333;
 }
 .nolink:hover {
 	border:2px solid #333;
@@ -249,7 +260,7 @@ img.constrained {
 }
 p.caption {
 	color:#ccc;
-	font-size:0.7em;
+	font-size:0.8em;
 	text-align:center;
 	line-height:1.5em;
 	font-weight:400;
@@ -273,7 +284,7 @@ p.caption {
 }
 ul.nav {
 	width:100%;
-	-webkit-margin-before: .5em;
+	-webkit-margin-before: .4em;
 	-webkit-margin-after: .5em;
 	-webkit-margin-start: 0px;
 	-webkit-margin-end: 0px;
@@ -291,7 +302,7 @@ ul.nav li a {
 	text-decoration:none;
 	color:rgba(255,255,255,1);
 	transition:all 0.3s;
-	font-size:0.75em;
+	font-size:0.85em;
 }
 ul.nav li a:hover {
 	color:rgba(255,255,255,0.4);
@@ -544,25 +555,33 @@ form button:after {
 
 /* photo scroll */
 /* Photo Banner */
+.extra {
+	text-transform:uppercase;
+	font-size:1.5em;
+	font-weight:500;
+	-webkit-margin-before:0;
+	margin:0.5em 0 0 0.5em;
+	color:#000;
+}
 .container {
     width: 100%;
     overflow: hidden;
-    margin: 10px auto;
+    margin: 0px auto;
     background: white;
 }
 
-.photobanner, .photobanner2 {
-    height: 233px;
-    width: 3550px;
-    margin-bottom: 5px;
+.photobanner {
+    height: 180px;
+    width: 2160px;
+	padding:25px 0 25px 0;
     font-size: 0;
 }
 
-.photobanner img, .photobanner2 img {
-	margin-bottom: 10px;
-	margin-right: 5px;
-	height: 233px;
-	width: 350px;
+.photobanner img {
+	margin-right:10px;
+	height: 125px;
+	width: 125px;
+	border:solid 1px transparent !important;
 }
 
 .photobanner img  {
@@ -574,82 +593,50 @@ form button:after {
 }
  
 .photobanner img:hover {
-    -webkit-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -o-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    transform: scale(1.2);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
     cursor: pointer;
+	border:solid 1px transparent !important;
  
-    -webkit-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
-    -moz-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
-    box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0px 3px 5px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 3px 5px rgba(0,0,0,0.1);
+    box-shadow: 0px 3px 5px rgba(0,0,0,0.1);
 }
 
 
 /*keyframe animations*/
 .first {
-    -webkit-animation: bannermove 30s linear infinite;
-       -moz-animation: bannermove 30s linear infinite;
-        -ms-animation: bannermove 30s linear infinite;
-         -o-animation: bannermove 30s linear infinite;
-            animation: bannermove 30s linear infinite;
+    -webkit-animation: bannermove 20s linear infinite;
+       -moz-animation: bannermove 20s linear infinite;
+        -ms-animation: bannermove 20s linear infinite;
+         -o-animation: bannermove 20s linear infinite;
+            animation: bannermove 20s linear infinite;
 }
  
 @keyframes "bannermove" {
- 0% {margin-left: 0px;}
- 100% {margin-left: -2130px;}
+    0% {margin-left: 0px;}
+    100% {margin-left: -1755px;}
 }
  
 @-moz-keyframes bannermove {
- 0% {margin-left: 0px;}
- 100% {margin-left: -2130px;}
+    0% {margin-left: 0px;}
+    100% {margin-left: -1755px;}
 }
  
 @-webkit-keyframes "bannermove" {
- 0% {margin-left: 0px;}
- 100% {margin-left: -2130px;}
+    0% {margin-left: 0px;}
+    100% {margin-left: -1755px;}
 }
  
 @-ms-keyframes "bannermove" {
- 0% {margin-left: 0px;}
- 100% {margin-left: -2130px;}
+    0% {margin-left: 0px;}
+    100% {margin-left: -1755px;}
 }
  
 @-o-keyframes "bannermove" {
- 0% {margin-left: 0px;}
- 100% {margin-left: -2130px;}
-}
-
-.second {
-    -webkit-animation: bannermoves 30s linear infinite;
-       -moz-animation: bannermoves 30s linear infinite;
-        -ms-animation: bannermoves 30s linear infinite;
-         -o-animation: bannermoves 30s linear infinite;
-            animation: bannermoves 30s linear infinite;
-}
- 
-@keyframes "bannermoves" {
- 0% {margin-left: -2130px;}
- 100% {margin-left: 0px;}
-}
- 
-@-moz-keyframes bannermoves {
- 0% {margin-left: -2130px;}
- 100% {margin-left: 0px;}
-}
- 
-@-webkit-keyframes "bannermoves" {
- 0% {margin-left: -2130px;}
- 100% {margin-left: 0px;}
-}
- 
-@-ms-keyframes "bannermoves" {
- 0% {margin-left: -2130px;}
- 100% {margin-left: 0px;}
-}
- 
-@-o-keyframes "bannermoves" {
- 0% {margin-left: -2130px;}
- 100% {margin-left: 0px;}
+    0% {margin-left: 0px;}
+    100% {margin-left: -1755px;}
 }

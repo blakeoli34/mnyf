@@ -20,20 +20,20 @@
 			</div>
 			<div class="clear"></div>	
 			<div class="col-2">
-				<a href="https://alternativesforgirls.org"><img class="max" src="http://placehold.it/300x300" alt="Alternative for Girls">Alternative for Girls</a>
+				<a href="https://alternativesforgirls.org"><img class="max" src="img/members/alternative-for-girls.png" alt="Alternative for Girls">Alternative for Girls</a>
 			</div>
 			
 			<div class="col-2">
-				<a href="http://www.arborcircle.org"><img class="max" src="http://placehold.it/300x300" alt="Arbor Circle">Arbor Circle</a>
+				<a href="http://www.arborcircle.org"><img class="max" src="img/members/arbor-circle-color.png" alt="Arbor Circle">Arbor Circle</a>
 			</div>
 			<div class="col-2">
-				<a href="http://ccdok.org"><img class="max" src="http://placehold.it/300x300" alt="Catholic Charities of Kalamazoo">Catholic Charities of Kalamazoo</a>
+				<a href="http://ccdok.org"><img class="max" src="img/members/ark-services-for-youth.png" alt="Catholic Charities of Kalamazoo">Catholic Charities of Kalamazoo</a>
 			</div>
 			<div class="col-2">
-				<a href="http://www.childandfamily.org/page.php?id=151"><img class="max" src="http://placehold.it/300x300" alt="Child and Family Charities – Gateway Community Services">Gateway Community Services</a>
+				<a href="http://www.childandfamily.org/page.php?id=151"><img class="max" src="img/members/child-and-families-charitites.png" alt="Child and Family Charities – Gateway Community Services">Gateway Community Services</a>
 			</div>
 			<div class="col-2">
-				<a href="http://www.cfsnwmi.org"><img class="max" src="http://placehold.it/300x300" alt="Child and Family Services of NW Michigan">Child and Family Services</a>
+				<a href="http://www.cfsnwmi.org"><img class="max" src="img/members/child-and-family-services.png" alt="Child and Family Services of NW Michigan">Child and Family Services</a>
 			</div>
 			<div class="col-2">
 				<a href="http://commongroundhelps.org"><img class="max" src="http://placehold.it/300x300" alt="Common Ground">Common Ground</a>
@@ -52,34 +52,34 @@
 				<a href="http://www.listeningear.com"><img class="max" src="http://placehold.it/300x300" alt="Listening Ear">Listening Ear</a>
 			</div>
 			<div class="col-2">
-				<a href="http://www.livingstonfamilycenter.org"><img class="max" src="http://placehold.it/300x300" alt="Livingston Family Center">Livingston Family Center</a>
+				<a href="http://www.livingstonfamilycenter.org"><img class="max" src="img/members/livingston-family-center.png" alt="Livingston Family Center">Livingston Family Center</a>
 			</div>
 			<div class="col-2">
 				<a href="http://www.matrixhumanservices.org"><img class="max" src="http://placehold.it/300x300" alt="Matrix Human Services">Matrix Human Services</a>
 			</div>
 			<div class="clear"></div>
 			<div class="col-2">
-				<a href="http://www.mmcaa.org"><img class="max" src="http://placehold.it/300x300" alt="Mid-Michigan Community Action Agency">Mid-Michigan Community Action Agency</a>
+				<a href="http://www.mmcaa.org"><img class="max" src="img/members/mid-michigan-community-action.png" alt="Mid-Michigan Community Action Agency">Mid-Michigan Community Action Agency</a>
 			</div>
 			<div class="col-2">
-				<a href="http://ozonehouse.org"><img class="max" src="http://placehold.it/300x300" alt="Ozone House">Ozone House</a>
+				<a href="http://ozonehouse.org"><img class="max" src="img/members/ozone-house.png" alt="Ozone House">Ozone House</a>
 			</div>
 			<div class="col-2">
-				<a href="http://www.ruthelliscenter.org"><img class="max" src="http://placehold.it/300x300" alt="Ruth Ellis Center">Ruth Ellis Center</a>
+				<a href="http://www.ruthelliscenter.org"><img class="max" src="img/members/ruth-ellis-center.png" alt="Ruth Ellis Center">Ruth Ellis Center</a>
 			</div>
 			<div class="clearmobile"></div>
 			<div class="col-2">
-				<a href="http://www.innerlinkservices.com/saginaw-county-youth-protection-council.html"><img class="max" src="http://placehold.it/300x300" alt="Saginaw County Youth Protection Council">Saginaw County Youth Protection Council</a>
+				<a href="http://www.innerlinkservices.com/saginaw-county-youth-protection-council.html"><img class="max" src="img/members/saginaw-county-youth-protection-council.png" alt="Saginaw County Youth Protection Council">Saginaw County Youth Protection Council</a>
 			</div>
 			<div class="col-2">
-				<a href="http://staircaseyouthservices.org"><img class="max" src="http://placehold.it/300x300" alt="Staircase Youth Services">Staircase Youth Services</a>
+				<a href="http://staircaseyouthservices.org"><img class="max" src="img/members/staircase-youth-services.png" alt="Staircase Youth Services">Staircase Youth Services</a>
 			</div>
 			<div class="col-2">
-				<a href="http://www.starfishfamilyservices.org"><img class="max" src="http://placehold.it/300x300" alt="Starfish Family Services">Starfish Family Services</a>
+				<a href="http://www.starfishfamilyservices.org"><img class="max" src="img/members/starfish-family-services.png" alt="Starfish Family Services">Starfish Family Services</a>
 			</div>
 			<div class="clear"></div>
 			<div class="col-2">
-				<a href="http://www.co.mecosta.mi.us/youth.asp"><img class="max" src="http://placehold.it/300x300" alt="Youth Attention Center">Youth Attention Center</a>
+				<a href="http://www.co.mecosta.mi.us/youth.asp"><img class="max" src="img/members/youth-attention-center.png" alt="Youth Attention Center">Youth Attention Center</a>
 			</div>
 			<div class="clear"></div>
 			<h3>Affiliate Members</h3>

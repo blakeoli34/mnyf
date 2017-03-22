@@ -82,22 +82,30 @@
 					</ul>
 					<h3>Becoming a Member of MNYF</h3>
 					<p>Are you interested in becoming part of our network committed to improving the lives of Michigan youth? <a href="#">Please see membership for more information.</a></p>
-					<div class="textbox white nolink">
-						<h1>Our<span class="light"> Members</span></h1>
-						<div class="container">
-						    <div class="photobanner">
-						        <img class="first" src="http://placehold.it/350x150">
-						        <img src="http://placehold.it/350x150">
-						        <img src="http://placehold.it/350x150">
-						        <img src="http://placehold.it/350x150">
-						        <img src="http://placehold.it/350x150">
-						        <img src="http://placehold.it/350x150">
-						        <img src="http://placehold.it/350x150">
-						        <img src="http://placehold.it/350x150">
-						        <img src="http://placehold.it/350x150">
-						        <img src="http://placehold.it/350x150">
-						    </div>
-						</div>
+					<div class="white nolink">
+						<a href="members.php">
+							<h1 class="extra">Our<span class="light"> Members</span></h1>
+							<div class="container">
+							    <div class="photobanner">
+							        <img class="first" src="img/members/alternative-for-girls.png" alt="Alternative For Girls">
+							 	    <img src="img/members/arbor-circle-color.png" alt="Arbor Circle Color">
+									<img src="img/members/ark-services-for-youth.png" alt="Ark Services For Youth">
+									<img src="img/members/child-and-families-charitites.png"  alt="Child And Families Charitites">
+									<img src="img/members/child-and-family-services.png"  alt="Child And Family Services">
+									<img src="img/members/livingston-family-center.png"  alt="Livingston Family Center">
+									<img src="img/members/mid-michigan-community-action.png"  alt="Mid Michigan Community Action">
+									<img src="img/members/ozone-house.png"  alt="Ozone House">
+									<img src="img/members/ruth-ellis-center.png"  alt="Ruth Ellis Center">
+									<img src="img/members/saginaw-county-youth-protection-council.png"  alt="Saginaw County Youth Protection Council">
+									<img src="img/members/staircase-youth-services.png"  alt="Staircase Youth Services">
+									<img src="img/members/starfish-family-services.png"  alt="Starfish Family Services">
+									<img src="img/members/youth-attention-center.png"  alt="Youth Attention Center">
+							        <img src="img/members/alternative-for-girls.png" alt="Alternative For Girls">
+							 	    <img src="img/members/arbor-circle-color.png" alt="Arbor Circle Color">
+									<img src="img/members/ark-services-for-youth.png" alt="Ark Services For Youth">
+							    </div>
+							</div>
+						</a>	
 					</div>
 		</div>
 	</div>

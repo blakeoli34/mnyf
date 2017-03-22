@@ -32,7 +32,7 @@
 		<div class="col-6">
 			<div class="textbox gray nolink">
 				<h1>MichFed<span class="light"> Member</span></h1>
-				<p>The mission of the Michigan Federation for Children and Families is to unite private, nonprofit human service providers, advocates, customers, individuals and funders to influence public policy in support of children, families and individuals' reaching their full potential; identify, develop and implement efficient and effective services to Michigan's most vulnerable children and families; and support and enhance the ability of Michigan's private, nonprofit agencies to provide human services.</p>
+				<p>The mission of the Michigan Federation for Children and Families is to unite private, nonprofit human service providers, advocates, customers, individuals and funders to influence public policy in support of children, families and individuals' reaching their full potential.</p>
 			</div>	
 		</div>
 		<div class="col-6">
@@ -44,7 +44,7 @@
 					</div>
 					<div class="col-8">
 						<h5>@MNYFMichigan</h5>
-						<p>Follow our Facebook page for updates on events, application deadlines, publications, and other information about our organization!</p>
+						<p>Follow our Facebook page for updates on events, deadlines, and other information about our organization!</p>
 					</div>
 					<div class="clear"></div>	
 				</a>	
