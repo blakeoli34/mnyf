@@ -28,10 +28,11 @@
 				<h2 class="center">MNYF Annual<br>Conference</h2>
 			</a>	
 		</div>
+		<div class="clear"></div>
 		<div class="col-6">
 			<div class="textbox gray nolink">
-				<h1>Safe<span class="light"> Place</span></h1>
-				<p>The Michigan Network for Youth and Families (MNYF) is a non-profit 501(c)3 membership organization. Our mission is to strengthen Michigan's youth-in-need, their families, and our communities by providing quality support, information, training and advocacy to member organizations.</p>
+				<h1>MichFed<span class="light"> Member</span></h1>
+				<p>The mission of the Michigan Federation for Children and Families is to unite private, nonprofit human service providers, advocates, customers, individuals and funders to influence public policy in support of children, families and individuals' reaching their full potential; identify, develop and implement efficient and effective services to Michigan's most vulnerable children and families; and support and enhance the ability of Michigan's private, nonprofit agencies to provide human services.</p>
 			</div>	
 		</div>
 		<div class="col-6">

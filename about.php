@@ -30,7 +30,7 @@
 					<ul class="board">
 						<h5>President and Chair of Membership</h5>
 						<li>
-							Susan Sheppard, <a href="http://www.arborcircle.org">Arbor Circle</a>, Grand Rapids
+							Amanda Hart, <a href="http://www.listeningear.com">Listening Ear</a>, Mt. Pleasant
 						</li>
 						<h5>Vice President and Chair of Best Practice</h5>
 						<li>
@@ -38,38 +38,66 @@
 						</li>
 						<h5>Treasurer and Chair of Finance Committee</h5>
 						<li>
-							James A. Perlaki, <a href="http://commongroundhelps.org">Common Ground</a>, Bloomfield Hills
+							James A. Perlaki, <a href="http://www.remixgenesee.org/everythingelse/short-term/">Genesee County Youth Corp.</a>, Flint
 						</li>
 						<h5>Secretary</h5>
 						<li>
-							Amanda Hart, <a href="http://www.listeningear.com">Listening Ear</a>, Mt. Pleasant
+							Julie Cnossen, <a href="http://www.arborcircle.org">Arbor Circle</a>, Grand Rapids
 						</li>
-						<h5>Chair of Legislative Committee</h5>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
 						<li>
 							Bod Edgar, <a href="http://www.remixgenesee.org/everythingelse/short-term/">Genesee County Youth Corporation</a>, Flint
-						</li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>
-						<li></li>	
+						</li>	
 						<li>
 							Jolyne Baarck, <a href="http://cysfresno.org">Comprehensive Youth Services/Family Youth Interventions</a>, Mt. Clemens
-						</li>
-						<li>
-							Norvilla Bennett, <a href="#">Third Level Crisis Center</a>, Traverse City
-						</li>
-						<li>
-							Sarah Barlow, <a href="https://alternativesforgirls.org">Alternatives for Girls</a>, Detroit
 						</li>	
 						<li>
 							Pamela Cornel-Allen, <a href="http://ozonehouse.org">Ozone House</a>, Ann Arbor
-						</li>	
+						</li>
+						<li>
+							Pamela Alexander, <a href="http://ozonehouse.org">Ruth Ellis Center</a>, Highland Park
+						</li>
+						<li>
+							Amy Eddinger, <a href="http://ozonehouse.org">Youth Attention Center</a>, Big Rapids
+						</li>
+						<li>
+							Ben Moe, <a href="http://ozonehouse.org">Catholic Charities of Kalamazoo</a>, Kalamazoo
+						</li>
+						<li>
+							Jane Myers, <a href="http://ozonehouse.org">Do&apos;Chas II</a>, Jackson
+						</li>
+						<li>
+							Aimee Nimeh, <a href="http://ozonehouse.org">Common Ground</a>, Royal Oak
+						</li>
+						<li>
+							Carolyn Rayford, <a href="http://ozonehouse.org">Alternatives for Girls</a>, Detroit
+						</li>
+						<li>
+							Angela Parth, <a href="http://ozonehouse.org">Livingston Family Services</a>, Howell
+						</li>
 					</ul>
 					<h3>Becoming a Member of MNYF</h3>
 					<p>Are you interested in becoming part of our network committed to improving the lives of Michigan youth? <a href="#">Please see membership for more information.</a></p>
 					<div class="textbox white nolink">
 						<h1>Our<span class="light"> Members</span></h1>
+						<div class="container">
+						    <div class="photobanner">
+						        <img class="first" src="http://placehold.it/350x150">
+						        <img src="http://placehold.it/350x150">
+						        <img src="http://placehold.it/350x150">
+						        <img src="http://placehold.it/350x150">
+						        <img src="http://placehold.it/350x150">
+						        <img src="http://placehold.it/350x150">
+						        <img src="http://placehold.it/350x150">
+						        <img src="http://placehold.it/350x150">
+						        <img src="http://placehold.it/350x150">
+						        <img src="http://placehold.it/350x150">
+						    </div>
+						</div>
 					</div>
 		</div>
 	</div>
