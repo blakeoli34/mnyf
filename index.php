@@ -52,16 +52,22 @@
 		</div>
 		<div class="clear"></div>	
 		<div class="col-4 col-third-s">
-			<img src="img/star.png" class="icons" alt="heres another image">
-			<p class="caption">Stephen Pollock<br>Memorial Fund</p>
+			<a href="spfund.php">
+				<img src="img/star.png" class="icons" alt="heres another image">
+				<p class="caption">Stephen Pollock<br>Memorial Fund</p>
+			</a>	
 		</div>
 		<div class="col-4 col-third-s">
-			<img src="img/info.png" class="icons" alt="heres another image">
-			<p class="caption">Think you<br>know MNYF?</p>
+			<a href="files/quiz.swf" target="_blank">
+				<img src="img/info.png" class="icons" alt="heres another image">
+				<p class="caption">Think you<br>know MNYF?</p>
+			</a>	
 		</div>
 		<div class="col-4 col-third-s">
-			<img src="img/like.png" class="icons" alt="heres another image">
-			<p class="caption">Donate to<br>Our Cause</p>
+			<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=3L6L2EHDRHNNA" target="_blank">
+				<img src="img/like.png" class="icons" alt="heres another image">
+				<p class="caption">Donate to<br>Our Cause</p>
+			</a>
 		</div>
 	</div>
 	<?php include("inc/footer.php");?>		

@@ -21,7 +21,7 @@
 				<h3>Funding</h3>
 				<p>Member fees allow MNYF to participate and represent the interests of its members in a number of statewide groups. Member fees also allow MNYF to do advocacy work and education on behalf of its members, and the youth, families, and communities they serve.</p>
 				<p>Members of MNYF pay dues based on their operating budget for relevant programming. Affiliate memberships are also available to supporting organizations, individuals, and youth. Additional financial support comes from foundation, state, and federal contracts for training and technical assistance to providers in Michigan.</p>
-				<p>If you would like more information regarding our membership structure and purpose, <a href="#">please check our by-laws.</a></p>
+				<p>If you would like more information regarding our membership structure and purpose, <a href="files/bylaws.pdf" target="_blank">please check our by-laws.</a></p>
 		</div>	
 		<div class="col-7 imgtext nohover">
 			<img src="img/board.jpg" class="max" alt="and yet another one">
@@ -81,7 +81,7 @@
 						</li>
 					</ul>
 					<h3>Becoming a Member of MNYF</h3>
-					<p>Are you interested in becoming part of our network committed to improving the lives of Michigan youth? <a href="#">Please see membership for more information.</a></p>
+					<p>Are you interested in becoming part of our network committed to improving the lives of Michigan youth? <a href="#">Check out our membership brochure for more information.</a></p>
 					<div class="white nolink">
 						<a href="members.php">
 							<h1 class="extra">Our<span class="light"> Members</span></h1>
@@ -92,7 +92,13 @@
 									<img src="img/members/ark-services-for-youth.png" alt="Ark Services For Youth">
 									<img src="img/members/child-and-families-charitites.png"  alt="Child And Families Charitites">
 									<img src="img/members/child-and-family-services.png"  alt="Child And Family Services">
+									<img src="img/members/commonground.png" width="400" height="400" alt="Commonground">
+									<img src="img/members/cys.png" width="400" height="400" alt="Cys">
+									<img src="img/members/dochas.png" width="400" height="400" alt="Dochas">
+									<img src="img/members/gccc.png" width="400" height="400" alt="Gccc">
+									<img src="img/members/listen.png" width="400" height="400" alt="Listen">
 									<img src="img/members/livingston-family-center.png"  alt="Livingston Family Center">
+									<img src="img/members/matrix.png" width="400" height="400" alt="Matrix">
 									<img src="img/members/mid-michigan-community-action.png"  alt="Mid Michigan Community Action">
 									<img src="img/members/ozone-house.png"  alt="Ozone House">
 									<img src="img/members/ruth-ellis-center.png"  alt="Ruth Ellis Center">

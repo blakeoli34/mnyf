@@ -32,7 +32,7 @@
 		</div>
 		<div id="conf" class="col-5">
 			<h3>MNYF Annual Conference</h3>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Yas yas yas yas yas. Oh yas this looks good. Yas.</p>
+			<p>Get ready for another memorable experience. Come to downtown Kalamazoo this August for the 2017 MNYF Annual Conference. We are booked in the Radisson Plaza Hotel. <a href="https://www.eventbrite.com/e/2017-mnyf-annual-conference-downtown-kalamazoo-mi-tickets-33006020897?aff=utm_source%3Deb_email%26utm_medium%3Demail%26utm_campaign%3Dnew_event_email&utm_term=eventurl_text">Check out the details and get your tickets on EventBrite.</a></p>
 		</div>
 		<div class="col-7">
 			<img class="max" src="img/conference.png" alt="" />
